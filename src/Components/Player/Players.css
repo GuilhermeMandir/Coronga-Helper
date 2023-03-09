@@ -1,0 +1,49 @@
+.player {
+    width: 280px;
+    padding-bottom: 24px;
+    
+}
+
+.player .cabecalho {
+    background-color:#217ad6;
+    border-radius: 10px 10px 0px 0px;
+}
+.player img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.player .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.player .rodape h4 {
+    color: #217ad6;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.player .rodape button {
+    /* float: right; */
+    background-color: #be2121;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 18px;
+    border: none; 
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.player .rodape button:hover{
+    background-color: #7e2929;
+}
